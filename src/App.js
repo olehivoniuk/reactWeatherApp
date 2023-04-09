@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { Audio } from  'react-loader-spinner'
+import { Audio } from  'react-loader-spinner';
+import Weather from `/Weather`
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
     wrapperStyle
     wrapperClass
   />
+
+  <Weather />
 
 
         <h1>Hello world </h1>
