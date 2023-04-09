@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Audio } from  'react-loader-spinner'
 
 function App() {
   return (
@@ -14,6 +15,16 @@ function App() {
           rel="noopener noreferrer"
         >
         </a>
+        <Audio
+    height = "80"
+    width = "80"
+    radius = "9"
+    color = 'green'
+    ariaLabel = 'three-dots-loading'     
+    wrapperStyle
+    wrapperClass
+  />
+
 
         <h1>Hello world </h1>
       </header>
