@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Weather from './Weather';
+
 import { Audio } from  'react-loader-spinner';
-import Weather from `/Weather`
 
 function App() {
   return (
@@ -29,7 +30,10 @@ function App() {
   <Weather />
 
 
+
+
         <h1>Hello world </h1>
+
       </header>
     </div>
   );

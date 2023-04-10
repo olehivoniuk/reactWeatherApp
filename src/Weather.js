@@ -1,7 +1,4 @@
-import react from `react`
 
 export default function Weather(){
-    return(
-        `Hello Oscar`
-    )
+    return " The weather is good today"
 }
