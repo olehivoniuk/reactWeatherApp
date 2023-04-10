@@ -1,7 +1,7 @@
 
 import React from "react";
 
-export default function Weather() {
+export default function City() {
   return (
     <div className="Weather">
       <div className="container p-5 m-5">
@@ -29,10 +29,10 @@ export default function Weather() {
                 </div>
               </form>
               <div className="overview">
-                <h1 id="city">Heading</h1>
+                <h1 id="city"><p>City name</p> </h1>
                 <ul>
                   <li>
-                    Last updated: <span id="date">20000</span>
+                    Last updated: <span id="date"></span>
                   </li>
                   <li id="description"></li>
                 </ul>
@@ -49,11 +49,11 @@ export default function Weather() {
                     <div className="float-left">
                       <strong id="temperature"></strong>
                       <span className="units">
-                        <a href="#" id="celsius-link" className="active">
+                        <a href=" " id="celsius-link" className="active">
                           °C
                         </a>{" "}
                         |
-                        <a href="#" id="fahrenheit-link">
+                        <a href=" " id="fahrenheit-link">
                           °F
                         </a>
                       </span>
