@@ -69,12 +69,15 @@ export default function City() {
                       Wind: <span id="wind"></span> km/h
                     </li>
                   </ul>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <a href="https://github.com/olehivoniuk/reactWeatherApp " id="fahrenheit-link"> Open source code </a>
+
     </div>
   );
 }
